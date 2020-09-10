@@ -1,16 +1,16 @@
 # 一、gRPC 结构
 
-![image-20200809081157443](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809081157443.png)
+![image-20200809081157443](Siahk\Repository\Pictures\image-20200809081157443.png)
 
 # 二、设计步骤
 
-![image-20200809081421271](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809081421271.png)
+![image-20200809081421271](.\Pictures\image-20200809081421271.png)
 
 
 
 # 三、生命周期
 
-![image-20200809081506275](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809081506275.png)
+![image-20200809081506275](.\Pictures\image-20200809081506275.png)
 
 # 四、身份认证
 
@@ -32,25 +32,25 @@
 
 rpc 方法名(请求类型) returns(响应类型)
 
-![image-20200809082739637](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809082739637.png)
+![image-20200809082739637](.\Pictures\image-20200809082739637.png)
 
 ## 2.Server Streaming
 
 rpc 方法名(请求类型) returns(stream 响应类型)
 
-![image-20200809082931953](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809082931953.png)
+![image-20200809082931953](.\Pictures\image-20200809082931953.png)
 
 ## 3.Client Streaming
 
 rpc 方法名(stream 请求类型) returns(响应类型)
 
-![image-20200809083047525](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809083047525.png)
+![image-20200809083047525](.\Picturess\image-20200809083047525.png)
 
 ## 4.双向 Streaming
 
 rpc 方法名(stream 请求类型) returns(stream 响应类型)
 
-![image-20200809083224282](C:\Users\Smith\AppData\Roaming\Typora\typora-user-images\image-20200809083224282.png)
+![image-20200809083224282](.\Pictures\image-20200809083224282.png)
 
 # 六 消息类型
 
